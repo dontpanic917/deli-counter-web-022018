@@ -9,6 +9,6 @@ def line(katz_deli)
     list=[]
     position=1
     katz_deli.each {|name| list << "#{position}. #{name}"; position += 1;}
-    puts "The line is currently: #{list.each}"
+    puts "The line is currently: #{list.each {|element| return element;return " " while (position < online+1)}}"
   end
 end
