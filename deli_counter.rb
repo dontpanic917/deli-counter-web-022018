@@ -1,6 +1,7 @@
 # Write your code here.
 katz_deli = []
 on_line = 0
+
 def line(katz_deli)
   on_line=katz_deli.size
   if on_line == 0
@@ -13,7 +14,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli,person)
+def take_a_number(katz_deli, person)
   if on_line == 0
     katz_deli << person
   end
