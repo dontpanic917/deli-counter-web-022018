@@ -12,3 +12,7 @@ def line(katz_deli)
     puts "The line is currently: #{list}"
   end
 end
+
+def take_a_number(katz_deli,person)
+  if on_line == 0
+    katz_deli << person
