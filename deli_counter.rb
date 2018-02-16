@@ -9,6 +9,6 @@ def line(katz_deli)
     list=[]
     position=1
     katz_deli.each {|name| (position < on_line+1) ? list << "#{position}. #{name} " : list << "#{position}. #{name}" ; position += 1}
-    puts "The line is currently: #{list.each {|element| return element; return " " }}"
+    puts "The line is currently: #{list}"
   end
 end
