@@ -1,5 +1,4 @@
 # Write your code here.
-katz_deli = []
 on_line = 0
 def line(katz_deli)
   on_line=katz_deli.size
