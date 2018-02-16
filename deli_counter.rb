@@ -10,5 +10,6 @@ def line(katz_deli)
     position=1
     puts "The line is currently: "
     katz_deli.each {|name| list << "#{position}. #{name}"; position += 1}
+    puts list
   end
 end
