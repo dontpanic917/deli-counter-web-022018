@@ -8,8 +8,7 @@ def line(katz_deli)
   elsif on_line > 0
     list=[]
     position=1
-    puts "The line is currently: "
     katz_deli.each {|name| list << "#{position}. #{name}"; position += 1}
-    puts list
+    puts "The line is currently: #{list}""
   end
 end
