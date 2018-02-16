@@ -6,6 +6,7 @@ def line(katz_deli)
   if on_line == 0
     puts "The line is currently empty."
   elsif on_line > 0
-    puts katz_deli
+    position=1
+    katz_deli.each {|name| puts "The line is currently: #{position}. #{name}"; position++}
   end
 end
