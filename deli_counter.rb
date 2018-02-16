@@ -19,6 +19,6 @@ def take_a_number(katz_deli, person)
     puts "Welcome, #{person}. You are number 1 in line."
   elsif katz_deli.size > 0
     katz_deli << person
-    puts "Welcome, #{person}. You are number #{katz_deli.size+1} in line."
+    puts "Welcome, #{person}. You are number #{katz_deli.size} in line."
   end
 end
