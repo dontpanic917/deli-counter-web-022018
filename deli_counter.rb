@@ -2,5 +2,10 @@
 katz_deli = []
 on_line = 0
 def line(katz_deli)
+  on_line=katz_deli.size
   if on_line == 0
     puts "the line is empty"
+  elsif on_line > 0
+    puts katz_deli
+  end
+end
