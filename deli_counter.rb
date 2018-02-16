@@ -8,7 +8,7 @@ def line(katz_deli)
   elsif on_line > 0
     list=""
     position=1
-    katz_deli.each {|name| list << "#{position}. #{name}"; position += 1; while (position < online+1) do puts " "}
+    katz_deli.each {|name| list << "#{position}. #{name}"; position += 1; puts " " while (position < online+1)}
     puts "The line is currently: #{list}"
   end
 end
