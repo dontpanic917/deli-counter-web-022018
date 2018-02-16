@@ -14,6 +14,7 @@ def line(katz_deli)
   end
 end
 
+on_line = 0
 def take_a_number(katz_deli, person)
   if on_line == 0
     katz_deli << person
