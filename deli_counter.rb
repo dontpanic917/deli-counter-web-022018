@@ -8,6 +8,6 @@ def line(katz_deli)
   elsif on_line > 0
     position=1
     puts "The line is currently: "
-    katz_deli.each {|name| "#{position}. #{name}"; position += 1}
+    puts katz_deli.each {|name| "#{position}. #{name}"; position += 1}
   end
 end
