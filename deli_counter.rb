@@ -1,4 +1,5 @@
 # Write your code here.
+katz_deli = []
 on_line = 0
 def line(katz_deli)
   on_line=katz_deli.size
@@ -7,6 +8,6 @@ def line(katz_deli)
   elsif on_line > 0
     position=1
     puts "The line is currently: "
-    katz_deli.each {|name| puts "#{position}. #{name}"; position += 1}
+    katz_deli.each {|name| "#{position}. #{name}"; position += 1}
   end
 end
