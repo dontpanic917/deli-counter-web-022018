@@ -22,3 +22,10 @@ def take_a_number(katz_deli, person)
     puts "Welcome, #{person}. You are number #{katz_deli.size} in line."
   end
 end
+
+def now_serving(katz_deli)
+  if katz_deli.size == 0
+    puts "line empty"
+  elsif katz_deli.size > 0
+  end
+end
